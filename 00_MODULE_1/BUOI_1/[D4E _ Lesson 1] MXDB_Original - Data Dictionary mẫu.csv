@@ -1,0 +1,10 @@
+MX Template DATA DICTIONARY,,
+,Bảng A,
+Column name,Data Type,Description
+sID,CHAR(5),Mã sản phẩm
+name,VARCHAR(20),Tên sản phẩm.. 
+,,
+,Bảng B,
+Column name,Data Type,Description
+sID,CHAR(5),Mã sản phẩm
+name,VARCHAR(20),Tên sản phẩm.. 

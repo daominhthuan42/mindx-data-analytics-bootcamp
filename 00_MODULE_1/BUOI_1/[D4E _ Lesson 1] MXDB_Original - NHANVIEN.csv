@@ -1,0 +1,27 @@
+EmID,EmName,Sex,TaxCode,Email,Address,Salary,JobTitle,DepID,DepName,StartDate
+MX001,Nguyễn Đình Phước,Nam,1234567,phuocnd@mxco.com,Nghệ An,5000,Tổng giám đốc,1,Head Office,2020-01-01 
+MX002,Hoàng Hải Anh,Nam,1234568,phuocnd@mxco.com,Nghệ An,3500,Phó giám đốc,1,Head Office,2020-01-01 
+MX003,Đỗ Đắc Hải,Nam,1234569,haidd@mxco.com,Hà Nội,3000,Trưởng phòng tài vụ,2,Tài chính,2020-01-01 
+MX004,Nguyễn Lê Chí Bẻo,Nữ,1234570,beonlc@mxco.com,Quảng Bình,100,Bảo vệ,3,Nghiệp vụ,2020-01-01 
+MX005,Lê Nhật Minh,Nam,1234571,minhln@mxco.com,Sài Gòn,3000,Trưởng phòng dữ liệu,4,Data,2020-01-01 
+MX006,Nguyễn Hữu Đạt,Nam,1234572,datnh@mxco.com,Hà Nội,2999,Phó phòng dữ liệu,4,Data,2020-01-01 
+MX007,Trần Đức Thuận,Nam,1234573,thuantd@mxco.com,Sài Gòn,3001,Giám đốc công nghệ,1,Head Office,2020-01-01 
+MX008,Nguyễn Ngọc Minh,Nam,1234574,minhnn@mxco.com,Quảng Bình,100,Giữ xe,3,Nghiệp vụ,2020-01-01 
+MX009,Đoàn Ngọc Thảo,Nữ,1234575,thaodn@mx.com,Long An,2000,Chuyên viên phân tích rủi ro,4,Data,2020-01-01 
+MX010,Lê Thảo Mai,Nữ,1234576,mailt@mxco.com,Bình Phước,1000,Kế toán,5,Kế toán,2020-01-01 
+MX011,Nguyễn Quốc Huy,Nam,1234577,huynq@mxco.com,Sài Gòn,2000,Kĩ sư AI,4,Data,2020-01-01 
+MX012,Trần Đăng Khoa,Nam,1234578,khoatd@mxco.com,Đồng Nai,2000,Kĩ sư AI,4,Data,2020-01-01 
+MX013,Nguyễn Trần Trung Hiếu,Nam,1234579,hieuntt@mxco.com,Quảng Nam,2000,Chuyên viên phân tích rủi ro,4,Data,2020-01-01 
+MX014,Nguyễn Trung Hiếu,Nam,1234580,hieunt@mxco.com,Hà Nội,4999,Giám đốc sản phẩm,1,Head Office,2020-01-01 
+MX015,Nguyễn Văn Cường ,Nữ,1234581,cuongnv@mxco.com,Hà Nội,100,Bảo vệ,3,Nghiệp vụ,2020-01-01 
+MX016,Trần Ngọc Tân,Nữ,1234582,tantn@mxco.com,Hà Nội,100,Bảo vệ,3,Nghiệp vụ,2020-01-01 
+MX017,Lê Đức Hiếu,Nam,1234583,hieuld@mxco.com,Hà Nội,2000,Giám đốc bán hàng,6,Sales,2020-01-01 
+MX018,Lê Quỳnh Trang,Nữ,1234584,tranglq@mxco.com,Hà Nội,2000,Chuyên viên phân tích rủi ro,4,Data,2020-01-01 
+MX019,Trần Đức Trung,Nam,1234585,trungtd@mxco.com,Hà Nội,3000,Trưởng phòng sản phẩm AI,4,Data,2020-01-01 
+MX020,Nguyễn Đức Bình,Nam,1234586,binhnd@mxco.com,Quảng Ninh,1000,Nhân viên bán hàng,6,Sales,2020-01-01 
+MX021,Đỗ Ngọc Ánh,Nữ,1234587,anhdn@mxco.com,Hà Nội,1000,Nhân viên bán hàng,6,Sales,2020-01-01 
+MX022,Nguyễn Ngọc Anh ,Nữ,1234588,anhnn@mxco.com,Hà Nội,1000,Nhân viên bán hàng,6,Sales,2020-01-11 
+MX023,Nguyễn Văn Đức,Nam,1234589,anlh@mxco.com,Hải Phòng,1000,Nhân viên bán hàng,6,Sales,2020-01-20 
+MX024,Trần Hải Đăng,Nam,1234590,ducth@mxco.com,Hải Phòng,1000,Nhân viên bán hàng,6,Sales,
+MX025,Nguyễn Hoài Linh,Nữ,1234591,linhnh@mxco.com,Hải Phòng,1000,Nhân viên bán hàng,6,Sales,
+MX026,Nguyễn Thị Linh,Nữ,1234592,linhnt@mxco.com,Hải Phòng,1000,Nhân viên bán hàng,6,Sales,

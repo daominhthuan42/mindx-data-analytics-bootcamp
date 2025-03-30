@@ -1,0 +1,22 @@
+ProductId,ProductName,ProductCategoryID,CategoryName,Price,SalesStartDate,SalesEndDate
+MXSP01,Chip máy tính Intel,1,Chip,55,2022-02-02 ,2024-10-10 
+MXSP02,Chip máy tính Amd,1,Chip,50,2022-02-02 ,2024-10-10 
+MXSP03,Màn hình máy tính LG,2,Monitor,100,2022-02-02 ,2024-10-10 
+MXSP04,Màn hình máy tính Mac,2,Monitor,280,2022-02-02 ,2024-10-10 
+MXSP05,Màn hình máy tính Sony,2,Monitor,180,2022-02-06 ,2024-10-10 
+MXSP06,Bàn phím cơ Razer,3,Keyboard,60,2022-02-07 ,2024-10-10 
+MXSP07,Bàn phím cơ DareU,3,Keyboard,40,2022-02-07 ,2024-10-10 
+MXSP08,Bàn phím cơ Rapoo,3,Keyboard,62,2022-02-07 ,2024-10-10 
+MXSP09,Chuột Logitech,4,Mouse,30,2022-02-07 ,2024-10-10 
+MXSP10,Chuột Asus,4,Mouse,60,2022-02-07 ,2024-10-10 
+MXSP11,Chuột HyperX,4,Mouse,80,2022-02-07 ,2024-10-10 
+MXSP12,Tai nghe Sony,5,Headphone,35,2022-02-10 ,2024-10-10 
+MXSP13,Tai nghe Razer,5,Headphone,30,2022-02-10 ,2024-10-10 
+MXSP14,Tai nghe HyperX,5,Headphone,40,2022-02-10 ,2024-10-10 
+MXSP15,RAM Desktop 4GB,6,RAM,25,2022-02-10 ,2024-10-10 
+MXSP16,RAM Desktop 8GB,6,RAM,42,2022-02-10 ,2024-10-10 
+MXSP17,RAM Desktop 16GB,6,RAM,80,2022-02-13 ,2024-10-10 
+MXSP18,Ổ cứng HDD 512 GB,7,Disk,32,2022-02-13 ,2024-10-10 
+MXSP19,Ổ cứng HDD 1 TB,7,Disk,60,2022-02-13 ,2024-10-10 
+MXSP20,Ổ cứng SSD 128 GB,7,Disk,30,2022-02-16 ,2024-10-10 
+MXSP21,Ổ cứng SSD 512GB,7,Disk,59,2022-02-17 ,2024-10-10 
