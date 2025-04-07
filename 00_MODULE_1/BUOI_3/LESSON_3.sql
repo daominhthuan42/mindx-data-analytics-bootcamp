@@ -177,92 +177,51 @@ INSERT INTO LEARNING(sID,cID,score) VALUES ('M0002','MC005',4.6);
 INSERT INTO LEARNING(sID,cID,score) VALUES ('M0002','MC006',2.2);
 
 -- Bạn hãy tìm ra tất cả mã học viên, tên học viên có đăng ký môn học
-SELECT S.sID,
-	   S.sFirstName, 
-	   S.sLastName
-FROM [dbo].[STUDENTS] S
-LEFT JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT S.sID
+FROM [dbo].[STUDENTS] AS S
+LEFT JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 WHERE L.sID IS NOT NULL;
 
 -- Bạn hãy tìm thông tin của những học viên nào không đăng ký môn học.
-SELECT S.sID,
-	   S.sFirstName, 
-	   S.sLastName
-FROM [dbo].[STUDENTS] S
-LEFT JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT S.sID
+FROM [dbo].[STUDENTS] AS S
+LEFT JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 WHERE L.sID IS NULL;
 
 -- Bạn hãy tìm những môn học không có học viên nào đăng ký.
 SELECT *
 FROM [dbo].[COURSE] AS C
-LEFT JOIN [dbo].[LEARNING] L ON L.cID = C.cID
+LEFT JOIN [dbo].[LEARNING] AS L ON L.cID = C.cID
 WHERE L.cID IS NULL;
 
 -- Bạn hãy tìm ra thông tin gồm mã học viên, tên học viên,
 -- SĐT của những học viên nào trượt môn. Biết rằng điểm < 4 sẽ trượt môn học.
-SELECT S.sID,
-       S.sFirstName,
-	   S.sLastName,
-	   S.sPhone,
-	   L.score
-FROM [dbo].[STUDENTS] S
-JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT S.sID, S.sFirstName, S.sLastName, S.sPhone
+FROM [dbo].[STUDENTS] AS S
+JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 WHERE L.score < 4;
 
 -- Hãy tìm ra thông tin học viên có điểm tổng kết môn cao nhất
-SELECT TOP 1 S.sID,
-             S.sFirstName, 
-			 S.sLastName, 
-			 S.sPhone,
-			 L.score
-FROM [dbo].[STUDENTS] S
-JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT TOP 1 S.sID, S.sFirstName, S.sLastName, S.sPhone, L.score
+FROM [dbo].[STUDENTS] AS S
+JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 ORDER BY L.score DESC
 
-SELECT *
-FROM [dbo].[LEARNING] L
-JOIN [dbo].[STUDENTS] S ON S.sID = L.sID
-WHERE L.score = (SELECT MAX([score]) FROM [dbo].[LEARNING]);
-
 -- Hãy tìm ra thông tin học viên có điểm tổng kết môn thấp nhất.
-SELECT TOP 1 S.sID,
-             S.sFirstName, 
-			 S.sLastName, 
-			 S.sPhone,
-			 L.score
-FROM [dbo].[STUDENTS] S
-JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT TOP 1 S.sID, S.sFirstName, S.sLastName, S.sPhone, L.score
+FROM [dbo].[STUDENTS] AS S
+JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 ORDER BY L.score ASC
 
-SELECT *
-FROM [dbo].[LEARNING] L
-JOIN [dbo].[STUDENTS] S ON S.sID = L.sID
-WHERE L.score = (SELECT MIN([score]) FROM [dbo].[LEARNING]);
-
 --Môn có học viên học điểm thấp nhất là môn nào? 
-SELECT TOP 1 S.sID,
-             S.sFirstName, 
-			 S.sLastName, 
-			 S.sPhone,
-			 L.score,
-			 L.cID,
-			 C.cName
-FROM [dbo].[STUDENTS] S
-JOIN [dbo].[LEARNING] L ON L.sID = S.sID
+SELECT TOP 1 S.sID, S.sFirstName, S.sLastName, S.sPhone, L.score, L.cID, C.cName
+FROM [dbo].[STUDENTS] AS S
+JOIN [dbo].[LEARNING] AS L ON L.sID = S.sID
 JOIN [dbo].[COURSE] AS C ON C.cID = L.cID
 ORDER BY L.score ASC
 
 -- Sau đó bạn hãy lấy ra danh sách các học viên học cùng môn đó với học viên có điểm thấp nhất,
---và đánh giá sơ bộ nguyên nhân đến từ học viên hay do chất lượng giáo viên?
-SELECT LE.sID, LE.score
-FROM [dbo].[LEARNING] LE
-WHERE LE.cID = 'MC004';
-
-SELECT LE.sID, LE.score
-FROM [dbo].[LEARNING] LE
-WHERE LE.cID = (
-			SELECT TOP 1 L.cID
-			FROM [dbo].[STUDENTS] S
-			JOIN [dbo].[LEARNING] L ON L.sID = S.sID
-			JOIN [dbo].[COURSE] AS C ON C.cID = L.cID
-			ORDER BY L.score ASC);
+--và đánh giá sơ bộ nguyên nhân đến từ học viên hay do chất lượng giáo viên? 
+SELECT L.sID, L.score
+FROM [dbo].[LEARNING] AS L
+WHERE L.cID = 'MC004';
