@@ -70,7 +70,29 @@ HAVING COUNT([SalesOrderID]) = (
 --)
 
 -- BÀI TOÀN: HÃY TÍNH DOANH THU CAO NHẤT THEO THÀNG TỪNG QUÝ
-WITH TABLE1 AS (    SELECT         MONTH(OrderDate) AS ZF_MONTH,         DATEPART(Q, OrderDate) ZF_QUARTER,        SUM(TotalDue) AS ZF_TOTAL_SALES    FROM SALES.SalesOrderHeader    GROUP BY MONTH(OrderDate), DATEPART(Q, OrderDate)), TABLE2 AS (    SELECT         ZF_QUARTER,        MAX(ZF_TOTAL_SALES) AS MAX_SALES    FROM TABLE1    GROUP BY ZF_QUARTER)SELECT TABLE1.*FROM TABLE1     INNER JOIN TABLE2 ON TABLE1.ZF_QUARTER = TABLE2.ZF_QUARTER                         AND TABLE1.ZF_TOTAL_SALES = TABLE2.MAX_SALES-- Dựa vào bảng CUSTOMER_GROUP, WAIT_TIME đã tạo trong bài trước
+WITH TABLE1 AS 
+(
+    SELECT 
+        MONTH(OrderDate) AS ZF_MONTH, 
+        DATEPART(Q, OrderDate) ZF_QUARTER,
+        SUM(TotalDue) AS ZF_TOTAL_SALES
+    FROM SALES.SalesOrderHeader
+    GROUP BY MONTH(OrderDate), DATEPART(Q, OrderDate)
+), 
+TABLE2 AS 
+(
+    SELECT 
+        ZF_QUARTER,
+        MAX(ZF_TOTAL_SALES) AS MAX_SALES
+    FROM TABLE1
+    GROUP BY ZF_QUARTER
+)
+SELECT TABLE1.*
+FROM TABLE1 
+    INNER JOIN TABLE2 ON TABLE1.ZF_QUARTER = TABLE2.ZF_QUARTER
+                         AND TABLE1.ZF_TOTAL_SALES = TABLE2.MAX_SALES
+
+-- Dựa vào bảng CUSTOMER_GROUP, WAIT_TIME đã tạo trong bài trước
 -- Bạn hãy viết các đoạn truy vấn dùng SubQuery để tìm ra các thông tin sau:   
 -- Tìm ra những khách hàng nào nhận hàng lâu nhất?
 SELECT *
