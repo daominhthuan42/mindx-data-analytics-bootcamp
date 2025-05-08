@@ -110,7 +110,7 @@ SELECT TEMP.[Very far],
 	   ROUND(TEMP.[Very close] * 100.0 / TEMP.[Total Employees], 2) AS [Percentage very close] 
 FROM cteDistanceStatus AS TEMP;
 
--- DANH SÁCH TÊN NHÂN VIÊN ĐƯỢC THĂNG CHỨC VÀ CẮT GIẢM
+-- DANH SÁCH TÊN NHÂN VIÊN ĐƯỢC THĂNG CHỨC
 SELECT E.Emplyee_name,
        (CASE WHEN HR.YearsSinceLastPromotion >= 10 THEN 1 END) AS [Due for promotion]
 FROM [dbo].[HR Analytics Data] AS HR
