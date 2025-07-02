@@ -1,0 +1,13 @@
+Segment,Activity,Actionable Tip
+Champion,"Đã mua gần đây, đặt hàng thường xuyên và chi tiêu nhiều nhất.",Reward họ. Có thể là người sớm chấp nhận sản phẩm mới. Nhiều khả năng sẽ trở thành một kênh giới thiệu rất tốt
+Loyal,Đặt hàng thường xuyên. Có tương tác các chương trình khuyến mãi.,Upsell. Đưa ra các chính sách được cá nhân hóa. Xin ý kiến reviews.
+Potential Loyalist,"Đã mua gần đây, chi tiêu tốt.",Cung cấp chương trình thành viên / khách hàng thân thiết. Giữ họ tham gia. Đưa ra các chính sách được cá nhân hóa.
+Promising,Từng là khách trung thành. Chi tiêu thường xuyên và khá nhiều tiền. Nhưng lần mua cuối cùng đã cách đây vài tuần.,Cung cấp phiếu giảm giá. Đưa họ trở lại nền tảng và giữ họ tương tác. Đưa ra các đề xuất được cá nhân hóa.
+New Customers,Khách hàng mới,"Cho vào các chiến dịch onboard, bắt đầu xây dựng mối quan hệ."
+Needs attention,Khách hàng cốt lõi có lần mua gần đây nhất đã xảy ra hơn một tháng trước.,Đề xuất khuyến mãi có thời hạn.. Đưa ra các chính sách được cá nhân hóa.
+About to sleep,"Khách phổ biến, mua hàng cách đây không lâu.",Đề xuất khuyến mãi có thời hạn.
+At Risk,Giống như “Can’t lose them but losing” nhưng lượng tiền và tần suất thấp hơn ,"Gửi email được cá nhân hóa.
+Đưa ra chính sách khuyến mãi"
+Can’t lose them ,Thực hiện các đơn đặt hàng lớn nhất và thường xuyên. Nhưng đã lâu không trở lại.,"Giành lại họ thông qua gia hạn hoặc các sản phẩm mới hơn, đừng để mất họ trước đối thủ. Nói chuyện với họ nếu cần thiết. Dành thời gian để cá nhân hóa cao nhất có thể."
+Hibernating customers,"Đã thực hiện lần mua hàng cuối cùng của họ cách đây khá lâu nhưng trong 4 tuần qua, họ đã truy cập trang web hoặc mở email.",Cá nhân hóa tiêu đề của email . Thu hút sự quan tâm của họ bằng cách giảm giá cụ thể cho một sản phẩm cụ thể.
+Lost,Đã thực hiện lần mua hàng gần đây nhất cách đây khá lâu và hoàn toàn không tương tác trong 4 tuần qua.,Bỏ qua trong các chiến dịch tiếp cận. 
