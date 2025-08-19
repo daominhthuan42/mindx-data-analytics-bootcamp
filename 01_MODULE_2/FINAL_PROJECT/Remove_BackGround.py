@@ -13,4 +13,4 @@ for item in datas:
         new_data.append(item)
 
 img.putdata(new_data)
-img.save("C:/Users/Dao Minh Thuan/Downloads/output_image_no_bg03.png", "PNG")
+img.save("C:/Users/Dao Minh Thuan/Downloads/output_image_no_bg_00.png", "PNG")
