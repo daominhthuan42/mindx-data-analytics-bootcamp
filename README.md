@@ -49,12 +49,12 @@ By the end of this course:
 ## 🎥 Course Modules  
 
 - **Module 1**  
-  ▶️ [Data For Everyone](https://www.youtube.com/watch?v=ILODRUJib8k&list=PLop81KYyUt_eDVWsz2h4-sFsioyu9w-W3&index=1)  
+  ▶️ [Data For Everyone](https://www.youtube.com/watch?v=ILODRUJib8k&list=PLop81KYyUt_eDVWsz2h4-sFsioyu9w-W3&index=1)
 
 - **Module 2**  
-  ▶️ [Business Intelligence Analyst](https://www.youtube.com/playlist?list=PLop81KYyUt_c1Rf20h6SI71Kp2W1bC165)  
+  ▶️ [Business Intelligence Analyst](https://www.youtube.com/playlist?list=PLop81KYyUt_c1Rf20h6SI71Kp2W1bC165)
 
 - **Module 3**  
-  ▶️ [Data Analyst](https://www.youtube.com/watch?v=JWFxb19tZuQ&list=PLQ9yq-AMSWDVKzvFqbixwqg8ss7vufPhp) 
+  ▶️ [Data Analyst](https://www.youtube.com/watch?v=JWFxb19tZuQ&list=PLQ9yq-AMSWDVKzvFqbixwqg8ss7vufPhp)
 
 ✨ *Happy Learning & Coding!* 🚀
